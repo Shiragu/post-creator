@@ -1,0 +1,28 @@
+{
+  "name": "postcreator",
+  "version": "1.0.0",
+  "description": "Simple post creator",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "dev": "webpack --mode development",
+    "emit": "webpack --mode production"
+  },
+  "keywords": [
+    "js",
+    "post",
+    "javascript"
+  ],
+  "author": "Shi-Ra",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "core-js": "^3.13.1",
+    "regenerator-runtime": "^0.13.7",
+    "webpack-cli": "^3.3.12"
+  }
+}
